@@ -1,0 +1,43 @@
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.circle.circle-01 {
+    background: linear-gradient(#fff, #da00ff);
+    clip-path: circle(4% at 20% 10%);
+}
+
+.circle.circle-02 {
+    background: linear-gradient(#da4453, #89216b);
+    clip-path: circle(6% at 38% 50%);
+}
+
+.circle.circle-03 {
+    background: linear-gradient(#ad5389, #3c1053);
+    clip-path: circle(8% at 20% 80%);
+}
+
+.circle.circle-04 {
+    background: linear-gradient(#40e0d0, #ff8c00, #ff0080);
+    clip-path: circle(7% at 50% 18%);
+}
+
+.circle.circle-05 {
+    background: linear-gradient(#a8c0ff, #3f2b96);
+    clip-path: circle(14% at 82% 10%);
+}
+
+.circle.circle-06 {
+    background: linear-gradient(#fc4a1a, #f7b733);
+    clip-path: circle(9% at 95% 60%);
+}
+
+.circle.circle-07 {
+    background: linear-gradient (#40e0d0, #ff8c00, #ff0080);
+    clip-path: circle(12% at 70% 90%);
+}
